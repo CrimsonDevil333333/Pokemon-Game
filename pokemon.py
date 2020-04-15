@@ -82,7 +82,7 @@ def pokemon(n):
                         guess=input()
 
                         if n=='quit' or n=='exit':
-                            m==False
+                            m=False
 
                         if guess+'.gif'==poke:
                             p("wow u guessed correct")
@@ -104,8 +104,8 @@ def pokemon(n):
 
 
 
-while f==False:
-    n=input()
+if __name__ =="__main__":
+    n="pokemon"
     p("bot  : ",end="" )
     pokemon(n)
 
