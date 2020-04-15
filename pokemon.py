@@ -106,9 +106,8 @@ def pokemon(n):
 
 while f==False:
     n=input()
-    if n=="pokemon":
-        p("bot  : ",end="" )
-        pokemon(n)
+    p("bot  : ",end="" )
+    pokemon(n)
 
 
     
